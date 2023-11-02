@@ -1,7 +1,6 @@
 
 <p align="center">
-<img src="https://img.shields.io/github/stars/edbtvplays/web-status
-" alt="License">
+<img src="https://img.shields.io/github/stars/Edbtvplays/Web-Status" alt="License">
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
