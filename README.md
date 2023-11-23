@@ -11,10 +11,10 @@ The Web Status System is a web application built by Edward Brook for his Final Y
 There is three primary parts to the Web Status System. 
 
 1. The Web application (This Respository)
-2. The Resource monitor (Coming Soon)
+2. The linux monitoring agent: https://github.com/Edbtvplays/Web-Status-Agent
 3. Latency Poller (Coming Soon)
 
-The project is currently in heavy active development, and initial working progress may be seen for a while. Once the application is in a decent state a demo enviroment will be setup to showcase the application.
+The project is currently in heavy active development, and initial working progress may not be seen for a while. Once the application is in a decent state a demo enviroment will be setup to showcase the application.
 
 ## Contributing
 
