@@ -32,6 +32,12 @@ class AuthenticatedSessionController extends Controller
     {
         $request->authenticate();
 
+        // Check if user is authenticated.
+        if (!Auth::user()->can('Admin')) {
+            Auth::logout();
+            return redirect('login')->withErrors(['email' => 'Access denied.']);
+        }
+
         $request->session()->regenerate();
 
         return redirect()->intended(RouteServiceProvider::HOME);

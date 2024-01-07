@@ -15,6 +15,17 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            colors: {
+                'contrast': '#1B2024',
+                'midnight': '#0E1115',
+                'online': '#50AE58',
+                'offline': '#DE4949',
+                'sky': '#017BFE',
+                'warning': '#DFBA48'
+
+                    // ...more shades if needed
+            },
+                // You can add as many custom colors as you need
         },
     },
 
